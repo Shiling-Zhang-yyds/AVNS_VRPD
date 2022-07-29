@@ -1,0 +1,46 @@
+﻿  main.cpp
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\vns.h(172,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\main.cpp(42,35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  vns.cpp
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\vns.h(172,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\vns.cpp(56,4): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\vns.cpp(239,2): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\vns.cpp(413,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\vns.cpp(440,7): warning C4101: “check_exist”: 未引用的局部变量
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7305,17): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7425): message : 查看对正在编译的函数 模板 实例化“_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)”的引用
+          with
+          [
+              _BidIt=std::pair<int,double> *,
+              _RanIt=std::pair<int,double> *,
+              _Pr=bool (__cdecl SOLVE::* )(const std::pair<int,double> &,const std::pair<int,double> &)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7455): message : 查看对正在编译的函数 模板 实例化“void std::_Sort_unchecked<std::pair<int,double>*,_Fn>(_RanIt,_RanIt,__int64,_Pr)”的引用
+          with
+          [
+              _Fn=bool (__cdecl SOLVE::* )(const std::pair<int,double> &,const std::pair<int,double> &),
+              _RanIt=std::pair<int,double> *,
+              _Pr=bool (__cdecl SOLVE::* )(const std::pair<int,double> &,const std::pair<int,double> &)
+          ]
+D:\图书馆\论文\我的论文\论文代码\面向对象\VNS面向对象\VNS面向对象\vns.cpp(27): message : 查看对正在编译的函数 模板 实例化“void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl SOLVE::* )(const std::pair<int,double> &,const std::pair<int,double> &)>(const _RanIt,const _RanIt,_Pr)”的引用
+          with
+          [
+              _Ty=std::pair<int,double>,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<int,double>>>>,
+              _Pr=bool (__cdecl SOLVE::* )(const std::pair<int,double> &,const std::pair<int,double> &)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7309,44): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7362,33): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7425): message : 查看对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=std::pair<int,double> *,
+              _Pr=bool (__cdecl SOLVE::* )(const std::pair<int,double> &,const std::pair<int,double> &)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7363,16): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7367,31): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7367,76): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7376,17): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7378,24): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7389,17): error C2064: 项不会计算为接受 2 个参数的函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\algorithm(7391,24): error C2064: 项不会计算为接受 2 个参数的函数
