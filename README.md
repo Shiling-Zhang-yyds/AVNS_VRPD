@@ -5,7 +5,7 @@
 &emsp;&emsp;在一定车辆和卡车的工作能力以及协同约束下，决策出最短的配送路径。
 
 ## 模型构建
-&emsp;&emsp;暂不公示。Cplex代码可见链接：
+&emsp;&emsp;Cplex代码可见链接：
 [https://github.com/Shiling-Zhang-yyds/CPLEXforVRPD](https://github.com/Shiling-Zhang-yyds/CPLEXforVRPD)
 
 ## 算法描述
